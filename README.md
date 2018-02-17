@@ -1,3 +1,3 @@
-# PROG2NOITE
+# Desenvolvimento de Jogos Digitais - Programação II
 
-Este é um jogo de nave na lua, baseado no moonpatrol de 1986
+Este respositório contém códigos utilizados nas aulas de Programação II do curso de Desenvolvimento de Jogos Digitais da Fatec Carapicuiba
