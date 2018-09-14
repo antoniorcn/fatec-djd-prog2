@@ -9,7 +9,7 @@ while r == "S":
         print("Ganhou")
         continue
     else:
-        print("Perdeu")
+        print("Perdeu", END="")
         vida = vida - 1
         if vida <= 0:
             break
