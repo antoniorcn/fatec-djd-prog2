@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55ce82f5-e746-4880-bad8-fe70743add5b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2018-2S/noite/aula8/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2018-2S/noite/aula8/equacao.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2018-2S/noite/aula8/teste_equacao.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2018-2S/noite/aula8/teste_funcao.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2018-2S/noite/aula8/teste_funcao_inline.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2018-2S/noite/aula8/teste_pygame.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2018-2S/noite/aula9/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2018-2S/noite/aula9/retangulo_move.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Antonio.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Antonio.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2018-2S/noite/aula10/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2018-2S/noite/aula10/teste_colisao.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2018-2S/noite/aula10/teste_eventos.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2018-2S/noite/aula10/teste_eventos_key.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2018-2S/noite/aula10/teste_eventos_mouse.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,21 +17,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/fatec_djd_prog2$teste_eventos.coverage" NAME="teste_eventos Coverage Results" MODIFIED="1538833511271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/noite/aula10" />
     <SUITE FILE_PATH="coverage/fatec_djd_prog2$jogo_dados.coverage" NAME="jogo_dados Coverage Results" MODIFIED="1535983038398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/manha/aula5" />
     <SUITE FILE_PATH="coverage/fatec_djd_prog2$tabuada.coverage" NAME="tabuada Coverage Results" MODIFIED="1535989349172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/manha/aula5" />
     <SUITE FILE_PATH="coverage/fatec_djd_prog2$dictTeste.coverage" NAME="dictTeste Coverage Results" MODIFIED="1537632449075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/noite/aula7" />
     <SUITE FILE_PATH="coverage/fatec_djd_prog2$teste_pygame__1_.coverage" NAME="teste_pygame (1) Coverage Results" MODIFIED="1538404993914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/noite/aula8" />
     <SUITE FILE_PATH="coverage/fatec_djd_prog2$soma.coverage" NAME="soma Coverage Results" MODIFIED="1538408431443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/noite/aula9" />
     <SUITE FILE_PATH="coverage/fatec_djd_prog2$teste_funcao__1_.coverage" NAME="teste_funcao (1) Coverage Results" MODIFIED="1538228987256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/noite/aula8" />
+    <SUITE FILE_PATH="coverage/fatec_djd_prog2$teste_eventos_mouse.coverage" NAME="teste_eventos_mouse Coverage Results" MODIFIED="1538833911092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/noite/aula10" />
     <SUITE FILE_PATH="coverage/fatec_djd_prog2$teste_equacao.coverage" NAME="teste_equacao Coverage Results" MODIFIED="1538230522686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/noite/aula8" />
     <SUITE FILE_PATH="coverage/fatec_djd_prog2$tabuada_todos.coverage" NAME="tabuada_todos Coverage Results" MODIFIED="1537624695297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/manha/aula5" />
     <SUITE FILE_PATH="coverage/fatec_djd_prog2$dict_test.coverage" NAME="dict_test Coverage Results" MODIFIED="1537789358299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/noite/aula7" />
+    <SUITE FILE_PATH="coverage/fatec_djd_prog2$teste_eventos_key.coverage" NAME="teste_eventos_key Coverage Results" MODIFIED="1538839377073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/noite/aula10" />
     <SUITE FILE_PATH="coverage/fatec_djd_prog2$teste_funcao.coverage" NAME="teste_funcao Coverage Results" MODIFIED="1537797926535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/manha/aula8" />
     <SUITE FILE_PATH="coverage/fatec_djd_prog2$asteriscos.coverage" NAME="asteriscos Coverage Results" MODIFIED="1535988907589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/manha/aula5" />
     <SUITE FILE_PATH="coverage/fatec_djd_prog2$matriz_test.coverage" NAME="matriz_test Coverage Results" MODIFIED="1537632789391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/noite/aula7" />
     <SUITE FILE_PATH="coverage/fatec_djd_prog2$teste_pygame.coverage" NAME="teste_pygame Coverage Results" MODIFIED="1537804430308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/manha/aula8" />
     <SUITE FILE_PATH="coverage/fatec_djd_prog2$teste_funcao_encadeada.coverage" NAME="teste_funcao_encadeada Coverage Results" MODIFIED="1538229488551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/noite/aula8" />
     <SUITE FILE_PATH="coverage/fatec_djd_prog2$retangulo_move.coverage" NAME="retangulo_move Coverage Results" MODIFIED="1538405116881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/noite/aula9" />
+    <SUITE FILE_PATH="coverage/fatec_djd_prog2$teste_colisao.coverage" NAME="teste_colisao Coverage Results" MODIFIED="1538839856129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/noite/aula10" />
     <SUITE FILE_PATH="coverage/fatec_djd_prog2$parabens.coverage" NAME="parabens Coverage Results" MODIFIED="1534607007957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prog2/noite/20182s/aula3" />
   </component>
   <component name="DatabaseView">
@@ -54,11 +54,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="retangulo_move.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2018-2S/noite/aula9/retangulo_move.py">
+      <file leaf-file-name="teste_eventos_key.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2018-2S/noite/aula10/teste_eventos_key.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="330">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -66,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="soma.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2018-2S/noite/aula9/soma.py">
+      <file leaf-file-name="teste_colisao.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2018-2S/noite/aula10/teste_colisao.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+            <state relative-caret-position="373">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -114,6 +114,10 @@
         <option value="$PROJECT_DIR$/2018-2S/noite/aula8/teste_pygame.py" />
         <option value="$PROJECT_DIR$/2018-2S/noite/aula9/retangulo_move.py" />
         <option value="$PROJECT_DIR$/2018-2S/noite/aula9/soma.py" />
+        <option value="$PROJECT_DIR$/2018-2S/noite/aula10/teste_eventos.py" />
+        <option value="$PROJECT_DIR$/2018-2S/noite/aula10/teste_eventos_mouse.py" />
+        <option value="$PROJECT_DIR$/2018-2S/noite/aula10/teste_eventos_key.py" />
+        <option value="$PROJECT_DIR$/2018-2S/noite/aula10/teste_colisao.py" />
       </list>
     </option>
   </component>
@@ -131,10 +135,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="1358" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="width" value="1378" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -179,7 +183,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,19 +206,13 @@
               <item name="fatec-djd-prog2" type="462c0819:PsiDirectoryNode" />
               <item name="2018-2S" type="462c0819:PsiDirectoryNode" />
               <item name="noite" type="462c0819:PsiDirectoryNode" />
-              <item name="aula8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fatec-djd-prog2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fatec-djd-prog2" type="462c0819:PsiDirectoryNode" />
-              <item name="2018-2S" type="462c0819:PsiDirectoryNode" />
-              <item name="noite" type="462c0819:PsiDirectoryNode" />
-              <item name="aula9" type="462c0819:PsiDirectoryNode" />
+              <item name="aula10" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -228,6 +225,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Antonio\git\fatec-djd-prog2\2018-2S\noite\aula10" />
       <recent name="C:\Users\Antonio\git\fatec-djd-prog2\2018-2S\noite\aula9" />
     </key>
   </component>
@@ -243,25 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.soma">
-    <configuration name="retangulo_move" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2018-2S/noite/aula9" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="fatec-djd-prog2" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2018-2S/noite/aula9/retangulo_move.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.teste_colisao">
     <configuration name="soma" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -280,74 +260,92 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="teste_equacao" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="teste_colisao" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2018-2S/noite/aula8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2018-2S/noite/aula10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="fatec-djd-prog2" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2018-2S/noite/aula8/teste_equacao.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2018-2S/noite/aula10/teste_colisao.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="teste_funcao_encadeada" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="teste_eventos" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2018-2S/noite/aula8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2018-2S/noite/aula10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="fatec-djd-prog2" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Antonio\git\fatec-djd-prog2\2018-2S\noite\aula8\teste_funcao_inline.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2018-2S/noite/aula10/teste_eventos.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="teste_pygame (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="teste_eventos_key" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2018-2S/noite/aula8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2018-2S/noite/aula10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="fatec-djd-prog2" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2018-2S/noite/aula8/teste_pygame.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2018-2S/noite/aula10/teste_eventos_key.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="teste_eventos_mouse" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2018-2S/noite/aula10" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="fatec-djd-prog2" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2018-2S/noite/aula10/teste_eventos_mouse.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.teste_funcao_encadeada" />
-      <item index="1" class="java.lang.String" itemvalue="Python.teste_equacao" />
-      <item index="2" class="java.lang.String" itemvalue="Python.teste_pygame (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.retangulo_move" />
-      <item index="4" class="java.lang.String" itemvalue="Python.soma" />
+      <item index="0" class="java.lang.String" itemvalue="Python.soma" />
+      <item index="1" class="java.lang.String" itemvalue="Python.teste_eventos" />
+      <item index="2" class="java.lang.String" itemvalue="Python.teste_eventos_mouse" />
+      <item index="3" class="java.lang.String" itemvalue="Python.teste_eventos_key" />
+      <item index="4" class="java.lang.String" itemvalue="Python.teste_colisao" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.soma" />
-        <item index="1" class="java.lang.String" itemvalue="Python.retangulo_move" />
-        <item index="2" class="java.lang.String" itemvalue="Python.teste_pygame (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.teste_equacao" />
-        <item index="4" class="java.lang.String" itemvalue="Python.teste_funcao_encadeada" />
+        <item index="0" class="java.lang.String" itemvalue="Python.teste_colisao" />
+        <item index="1" class="java.lang.String" itemvalue="Python.teste_eventos_key" />
+        <item index="2" class="java.lang.String" itemvalue="Python.teste_eventos_mouse" />
+        <item index="3" class="java.lang.String" itemvalue="Python.teste_eventos" />
+        <item index="4" class="java.lang.String" itemvalue="Python.soma" />
       </list>
     </recent_temporary>
   </component>
@@ -392,7 +390,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="1358" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -462,13 +460,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/2018-2S/noite/aula9/retangulo_move.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018-2S/noite/aula9/soma.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2018-2S/noite/aula8/teste_pygame.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -652,26 +667,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
           <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018-2S/noite/aula9/retangulo_move.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2018-2S/noite/aula9/soma.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018-2S/noite/aula9/retangulo_move.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018-2S/noite/aula10/teste_eventos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018-2S/noite/aula10/teste_eventos_mouse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018-2S/noite/aula10/teste_eventos_key.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018-2S/noite/aula10/teste_colisao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
