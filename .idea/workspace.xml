@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbe519e1-29c7-42e0-ac7a-448373026562" name="Default" comment="Manha aula11 parte 2" />
+    <list default="true" id="dbe519e1-29c7-42e0-ac7a-448373026562" name="Default" comment="Manha aula11 parte 3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2018-2S/manha/aula11/matriz_game_teste.py" beforeDir="false" afterPath="$PROJECT_DIR$/2018-2S/manha/aula11/matriz_game_teste.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +15,7 @@
     <SUITE FILE_PATH="coverage/fatec_djd_prog2$space_invaders.coverage" NAME="space_invaders Coverage Results" MODIFIED="1540048772925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/noite/aula11" />
     <SUITE FILE_PATH="coverage/fatec_djd_prog2$teste_transform_rotate_scale.coverage" NAME="teste_transform_rotate_scale Coverage Results" MODIFIED="1540049910083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/noite/aula11" />
     <SUITE FILE_PATH="coverage/fatec_djd_prog2$dicionario_game_teste.coverage" NAME="dicionario_game_teste Coverage Results" MODIFIED="1540216078618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/manha/aula11" />
-    <SUITE FILE_PATH="coverage/fatec_djd_prog2$matriz_game_teste.coverage" NAME="matriz_game_teste Coverage Results" MODIFIED="1540219853928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/manha/aula11" />
+    <SUITE FILE_PATH="coverage/fatec_djd_prog2$matriz_game_teste.coverage" NAME="matriz_game_teste Coverage Results" MODIFIED="1540220528661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/manha/aula11" />
     <SUITE FILE_PATH="coverage/fatec_djd_prog2$teste_transform.coverage" NAME="teste_transform Coverage Results" MODIFIED="1540049742026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/noite/aula11" />
     <SUITE FILE_PATH="coverage/fatec_djd_prog2$teste_collide.coverage" NAME="teste_collide Coverage Results" MODIFIED="1540212324068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/manha/aula9" />
     <SUITE FILE_PATH="coverage/fatec_djd_prog2$galaga.coverage" NAME="galaga Coverage Results" MODIFIED="1540052106134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/noite/aula11" />
@@ -40,14 +43,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="5241" />
-          <entry key="txt" value="104" />
+          <entry key="py" value="5295" />
+          <entry key="txt" value="106" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="104" />
-          <entry key="Python" value="5241" />
+          <entry key="PLAIN_TEXT" value="106" />
+          <entry key="Python" value="5295" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -59,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2018-2S/manha/aula11/matriz_game_teste.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="362">
+              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -355,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540216133214</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Manha aula11 parte 3">
+      <created>1540219915743</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1540219915743</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -386,14 +396,14 @@
       <window_info anchor="right" id="SciView" order="5" weight="0.32980332" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.18821605" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.18821605" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -422,7 +432,8 @@
     <MESSAGE value="Aula 11 - Manha parte 1" />
     <MESSAGE value="Image Transform Scale Rot" />
     <MESSAGE value="Manha aula11 parte 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Manha aula11 parte 2" />
+    <MESSAGE value="Manha aula11 parte 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Manha aula11 parte 3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/2018-2S/noite/aula10/teste_colisao.py">
@@ -502,8 +513,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2018-2S/manha/aula11/matriz_game_teste.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="362">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>

@@ -16,7 +16,9 @@ tela = pygame.display.set_mode((800, 600), 0, 32)
 w = 800 / 8
 h = 600 / 8
 pac_orig = pygame.image.load("./images/pac.png").convert_alpha()
+brick_orig = pygame.image.load("./images/brick.jpg").convert_alpha()
 pac = pygame.transform.scale(pac_orig, (int(w), int(h)))
+brick = pygame.transform.scale(brick_orig, (int(w), int(h)))
 
 pacman = {'col': 5, 'lin': 1, 'imagem': pac}
 
@@ -31,7 +33,8 @@ while True:
             y = h * linha
             celula = matriz[linha][coluna]
             if celula == 1:
-                pygame.draw.rect(tela, (255, 255, 0), ((x, y), (w, h)), 0)
+                # pygame.draw.rect(tela, (255, 255, 0), ((x, y), (w, h)), 0)
+                tela.blit(brick, (x, y))
             elif celula == 2:
                 pygame.draw.rect(tela, (0, 0, 0), ((x, y), (w, h)), 0)
 
