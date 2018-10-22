@@ -66,6 +66,12 @@ def teste_colisao( obj1, obj2 ):
 
 ciclos = 0
 
+hp = 100
+
+pygame.init()
+
+font = pygame.font.SysFont("arial", 48, False, False)
+
 tela = pygame.display.set_mode((800, 600), 0, 32)
 imagem1 = pygame.image.load("./images/gato.png").convert_alpha()
 imagem2 = pygame.image.load("./images/enemy.png").convert_alpha()
@@ -98,7 +104,13 @@ while True:
     pintar(tela, inimigo)
     if teste_colisao(gato, inimigo):
         tela.blit(img_explod, (inimigo['x'], inimigo['y']))
+        hp -= 1
+        if hp <= 0:
+            hp = 0
     pygame.draw.circle(tela, (0, 255, 0), (600, 100), 50, 0)
+    pygame.draw.rect(tela, (0, 255, 0), ((50, 10), (hp * 2, 50)))
+    texto_hp = font.render("HP : " + str(hp), True, (255, 255, 0))
+    tela.blit(texto_hp, (75, 15))
     pygame.display.update()
 
     for e in pygame.event.get():
