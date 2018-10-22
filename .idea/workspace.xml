@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbe519e1-29c7-42e0-ac7a-448373026562" name="Default" comment="Image Transform">
+    <list default="true" id="dbe519e1-29c7-42e0-ac7a-448373026562" name="Default" comment="Image Transform Scale Rot">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,37 +13,42 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/fatec_djd_prog2$space_invaders.coverage" NAME="space_invaders Coverage Results" MODIFIED="1540048772925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/noite/aula11" />
     <SUITE FILE_PATH="coverage/fatec_djd_prog2$teste_transform_rotate_scale.coverage" NAME="teste_transform_rotate_scale Coverage Results" MODIFIED="1540049910083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/noite/aula11" />
+    <SUITE FILE_PATH="coverage/fatec_djd_prog2$dicionario_game_teste.coverage" NAME="dicionario_game_teste Coverage Results" MODIFIED="1540213468927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/manha/aula11" />
     <SUITE FILE_PATH="coverage/fatec_djd_prog2$teste_transform.coverage" NAME="teste_transform Coverage Results" MODIFIED="1540049742026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/noite/aula11" />
-    <SUITE FILE_PATH="coverage/fatec_djd_prog2$teste_imagem.coverage" NAME="teste_imagem Coverage Results" MODIFIED="1540047944847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/noite/aula11" />
+    <SUITE FILE_PATH="coverage/fatec_djd_prog2$teste_collide.coverage" NAME="teste_collide Coverage Results" MODIFIED="1540212324068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/manha/aula9" />
+    <SUITE FILE_PATH="coverage/fatec_djd_prog2$galaga.coverage" NAME="galaga Coverage Results" MODIFIED="1540052106134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/noite/aula11" />
+    <SUITE FILE_PATH="coverage/fatec_djd_prog2$teste_imagem.coverage" NAME="teste_imagem Coverage Results" MODIFIED="1540212686665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2018-2S/manha/aula9" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-394746088">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="6" />
+          <entry key="py" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="6" />
+          <entry key="Python" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2800" />
-          <entry key="txt" value="35" />
+          <entry key="py" value="3585" />
+          <entry key="txt" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="35" />
-          <entry key="Python" value="2800" />
+          <entry key="PLAIN_TEXT" value="52" />
+          <entry key="Python" value="3585" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -51,12 +56,17 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2018-2S/noite/aula11/teste_transform_rotate_scale.py">
+        <entry file="file://$PROJECT_DIR$/2018-2S/manha/aula11/dicionario_game_teste.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+            <state relative-caret-position="123">
+              <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#134#170#0" />
+                <element signature="e#210#560#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,6 +81,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Antonio" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -80,6 +95,8 @@
         <option value="$PROJECT_DIR$/2018-2S/noite/aula11/space_invaders.py" />
         <option value="$PROJECT_DIR$/2018-2S/noite/aula11/teste_transform.py" />
         <option value="$PROJECT_DIR$/2018-2S/noite/aula11/teste_transform_rotate_scale.py" />
+        <option value="$PROJECT_DIR$/2018-2S/noite/aula11/galaga.py" />
+        <option value="$PROJECT_DIR$/2018-2S/manha/aula11/dicionario_game_teste.py" />
       </list>
     </option>
   </component>
@@ -103,7 +120,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,20 +136,20 @@
               <item name="fatec-djd-prog2" type="b2602c69:ProjectViewProjectNode" />
               <item name="fatec-djd-prog2" type="462c0819:PsiDirectoryNode" />
               <item name="2018-2S" type="462c0819:PsiDirectoryNode" />
-              <item name="noite" type="462c0819:PsiDirectoryNode" />
+              <item name="manha" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fatec-djd-prog2" type="b2602c69:ProjectViewProjectNode" />
               <item name="fatec-djd-prog2" type="462c0819:PsiDirectoryNode" />
               <item name="2018-2S" type="462c0819:PsiDirectoryNode" />
-              <item name="noite" type="462c0819:PsiDirectoryNode" />
+              <item name="manha" type="462c0819:PsiDirectoryNode" />
               <item name="aula11" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fatec-djd-prog2" type="b2602c69:ProjectViewProjectNode" />
               <item name="fatec-djd-prog2" type="462c0819:PsiDirectoryNode" />
               <item name="2018-2S" type="462c0819:PsiDirectoryNode" />
-              <item name="noite" type="462c0819:PsiDirectoryNode" />
+              <item name="manha" type="462c0819:PsiDirectoryNode" />
               <item name="aula11" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -141,6 +157,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -165,8 +182,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.teste_transform_rotate_scale">
-    <configuration name="space_invaders" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.dicionario_game_teste">
+    <configuration name="dicionario_game_teste" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="fatec-djd-prog2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2018-2S/manha/aula11" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2018-2S/manha/aula11/dicionario_game_teste.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="galaga" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="fatec-djd-prog2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -179,7 +218,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2018-2S/noite/aula11/space_invaders.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2018-2S/noite/aula11/galaga.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="teste_collide" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="fatec-djd-prog2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2018-2S/manha/aula9" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2018-2S/manha/aula9/teste_collide.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -196,34 +257,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2018-2S/noite/aula11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2018-2S/manha/aula9" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2018-2S/noite/aula11/teste_imagem.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="teste_transform" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="fatec-djd-prog2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2018-2S/noite/aula11" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2018-2S/noite/aula11/teste_transform.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2018-2S/manha/aula9/teste_imagem.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,17 +294,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.teste_imagem" />
-      <item itemvalue="Python.space_invaders" />
-      <item itemvalue="Python.teste_transform" />
       <item itemvalue="Python.teste_transform_rotate_scale" />
+      <item itemvalue="Python.galaga" />
+      <item itemvalue="Python.teste_collide" />
+      <item itemvalue="Python.teste_imagem" />
+      <item itemvalue="Python.dicionario_game_teste" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.teste_transform_rotate_scale" />
-        <item itemvalue="Python.teste_transform" />
-        <item itemvalue="Python.space_invaders" />
+        <item itemvalue="Python.dicionario_game_teste" />
         <item itemvalue="Python.teste_imagem" />
+        <item itemvalue="Python.teste_collide" />
+        <item itemvalue="Python.galaga" />
+        <item itemvalue="Python.teste_transform_rotate_scale" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540049563594</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Image Transform Scale Rot">
+      <created>1540049962988</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1540049962988</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -358,39 +406,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Jogo space invaders" />
     <MESSAGE value="Image Transform" />
-    <option name="LAST_COMMIT_MESSAGE" value="Image Transform" />
+    <MESSAGE value="Image Transform Scale Rot" />
+    <option name="LAST_COMMIT_MESSAGE" value="Image Transform Scale Rot" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/2018-2S/noite/aula10/teste_colisao.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="32" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018-2S/noite/aula11/space_invaders.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <marker date="1540048102485" expanded="true" signature="141:269" ph="..." />
-            <marker date="1540048102485" expanded="true" signature="1349:1427" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018-2S/noite/aula11/teste_imagem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="46" selection-start-line="46" selection-end-line="57" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1540047221365" expanded="true" signature="135:199" ph="..." />
-            <marker date="1540047221365" expanded="true" signature="326:921" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -398,16 +421,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018-2S/noite/aula11/teste_transform_rotate_scale.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="36" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018-2S/noite/aula11/space_invaders.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018-2S/noite/aula11/teste_imagem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="46" selection-start-line="46" selection-end-line="57" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018-2S/noite/aula11/galaga.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+          <folding>
+            <marker date="1540052117372" expanded="true" signature="1613:1929" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018-2S/manha/aula9/teste_collide.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" lean-forward="true" selection-end-line="67" selection-end-column="24" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2018-2S/noite/aula11/teste_transform_rotate_scale.py">
+    <entry file="file://$PROJECT_DIR$/2018-2S/manha/aula9/teste_imagem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        <state relative-caret-position="120">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018-2S/manha/aula11/dicionario_game_teste.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#134#170#0" />
+            <element signature="e#210#560#0" />
+          </folding>
         </state>
       </provider>
     </entry>
