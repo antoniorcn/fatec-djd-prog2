@@ -1,6 +1,6 @@
 import pygame
 import random
-from pygame.locals import QUIT, KEYDOWN, KEYUP, K_d, K_a, K_w, K_s, Rect
+from pygame.locals import QUIT, KEYDOWN, KEYUP, K_d, K_a, K_w, K_s, K_SPACE, Rect
 
 
 def overlapping(minA, maxA, minB, maxB):
@@ -65,8 +65,10 @@ def teste_colisao( obj1, obj2 ):
 
 
 ciclos = 0
-
+lista_tiros = []
 hp = 100
+
+clk = pygame.time.Clock()
 
 pygame.init()
 
@@ -76,9 +78,11 @@ tela = pygame.display.set_mode((800, 600), 0, 32)
 imagem1 = pygame.image.load("./images/gato.png").convert_alpha()
 imagem2 = pygame.image.load("./images/enemy.png").convert_alpha()
 imagem3 = pygame.image.load("./images/explosion.png").convert_alpha()
+imagem4 = pygame.image.load("./images/furball.png").convert_alpha()
 
 rinimigo = imagem2.get_rect()
 img_explod = pygame.transform.scale(imagem3, rinimigo.size)
+img_fur = pygame.transform.scale(imagem4, (50, 40))
 explode = False
 
 gato = {'x': 100, 'y': 100, 'velX': 0, 'velY': 0, 'imagem': imagem1}
@@ -91,6 +95,8 @@ while True:
     movimenta(gato)
     chegou = calcula_velocidade(inimigo)
     movimenta(inimigo)
+    for tiro in lista_tiros:
+        movimenta(tiro)
 
     if ciclos % 100 == 0 and chegou:
         # inimigo['destinoX'] = random.randint(50, 750)
@@ -102,11 +108,23 @@ while True:
     tela.fill((0, 0, 0))
     pintar(tela, gato)
     pintar(tela, inimigo)
+
+    for tiro in lista_tiros:
+        pintar(tela, tiro)
+
     if teste_colisao(gato, inimigo):
         tela.blit(img_explod, (inimigo['x'], inimigo['y']))
         hp -= 1
         if hp <= 0:
             hp = 0
+
+    for tiro in lista_tiros:
+        if teste_colisao(tiro, inimigo):
+            win = font.render("Y O U  W I N", True, (255, 0, 0))
+            tela.blit(win, (300, 280))
+            pygame.display.update()
+            clk.tick(0.1)
+
     pygame.draw.circle(tela, (0, 255, 0), (600, 100), 50, 0)
     pygame.draw.rect(tela, (0, 255, 0), ((50, 10), (hp * 2, 50)))
     texto_hp = font.render("HP : " + str(hp), True, (255, 255, 0))
@@ -125,6 +143,11 @@ while True:
                 gato['velY'] = -1
             elif e.key == K_s:
                 gato['velY'] = 1
+            elif e.key == K_SPACE:
+                tiro = {'x': gato['x'] + 112, 'y': gato['y'] + 23,
+                        'velX': 1, 'velY': 0, 'imagem':img_fur}
+                lista_tiros.append(tiro)
+
         elif e.type == KEYUP:
             if e.key == K_d:
                 gato['velX'] = 0
