@@ -44,6 +44,8 @@ def pintar(scr, obj):
     if obj['status'] == 'vivo':
         scr.blit(obj['imagem'], obj['pos'])
 
+ciclo = 0
+delay_tiro = 0
 pygame.init()
 tela = pygame.display.set_mode((800, 600), 0, 32)
 enemy = pygame.image.load("images/enemy.png").convert_alpha()
@@ -63,13 +65,17 @@ while True:
     calculaInimigo(enemy1)
     calculaInimigo(enemy2)
     calculaHeroi(heroi)
+    if heroi["pos"][0] < 0:
+        heroi["pos"][0] = 3
+    if heroi["pos"][0] + heroi["size"][0] > 800:
+        heroi["pos"][0] = 800 - heroi["size"][0] - 3
     calculaTiros(lista_tiros)
 
     for tiro in lista_tiros:
-        if testa_colisao(enemy1, tiro):
+        if enemy1["status"] == 'vivo' and testa_colisao(enemy1, tiro):
             enemy1['status'] = 'morto'
             lista_tiros.remove(tiro)
-        if testa_colisao(enemy2, tiro):
+        if enemy1["status"] == 'vivo' and testa_colisao(enemy2, tiro):
             enemy2['status'] = 'morto'
             lista_tiros.remove(tiro)
 
@@ -94,5 +100,11 @@ while True:
             elif e.key == K_RIGHT:
                 heroi['velX'] = 1
             elif e.key == K_SPACE:
-                lista_tiros.append({'pos':heroi['pos'].copy(), 'velY':-1, 'imagem':tiro_img, 'size':[5, 22], 'status':'vivo'})
+                if delay_tiro <= 0:
+                    lista_tiros.append({'pos':heroi['pos'].copy(), 'velY':-1, 'imagem':tiro_img, 'size':[5, 22], 'status':'vivo'})
+                    delay_tiro = 100;
 
+    delay_tiro -= 1
+    if delay_tiro < 0:
+        delay_tiro = 0
+    ciclo += 1

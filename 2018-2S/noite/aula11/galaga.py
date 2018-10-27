@@ -3,14 +3,14 @@ import random
 from pygame import QUIT, KEYDOWN, KEYUP, K_UP, K_DOWN, K_LEFT, K_RIGHT, K_SPACE
 
 inimigos = 20
-destino = [random.randint(50, 500), random.randint(50, 400)]
-
+destinos = [[random.randint(50, 500), random.randint(50, 400)] for _ in range(10)]
 def testa_colisao( obj1, obj2 ):
     r1 = pygame.Rect(obj1['pos'], obj1['size'])
     r2 = pygame.Rect(obj2['pos'], obj2['size'])
     return r1.colliderect(r2)
 
-def calculaTiros( lista ):
+
+def calcular_tiros(lista):
     for tiro in lista:
         if tiro['status'] == 'vivo':
             tiro['pos'][1] += tiro['velY']
@@ -19,32 +19,41 @@ def calculaTiros( lista ):
         else:
             lista.remove(tiro)
 
-def calculaHeroi( hero ):
+
+def calcular_heroi(hero):
     hero['pos'][0] += hero['velX']
     hero['pos'][1] += hero['velY']
 
-def calculaInimigo( inimigo ):
-    global destino
+
+def calculate_new_velocity( inimigo ):
+    global destinos
+    destino = destinos[inimigo['destinoId']]
+    if destino[0] > inimigo['pos'][0]:
+        inimigo['velX'] = 1
+    else:
+        inimigo['velX'] = -1
+    if destino[1] > inimigo['pos'][1]:
+        inimigo['velY'] = 1
+    else:
+        inimigo['velY'] = -1
+
+
+def calcular_inimigo(inimigo):
+    global destinos
+    destino = destinos[inimigo['destinoId']]
     if inimigo['status'] == 'vivo':
-        if inimigo['pos'][0] != inimigo['destino'][0]:
+        if inimigo['pos'][0] != destino[0]:
             inimigo['pos'][0] += inimigo['velX']
 
-        if inimigo['pos'][1] != inimigo['destino'][1] :
+        if inimigo['pos'][1] != destino[1] :
             inimigo['pos'][1] += inimigo['velY']
 
-        if inimigo['pos'] == inimigo['destino']:
+        if inimigo['pos'] == destino:
             if inimigo['head']:
-                destino = [random.randint(50, 500), random.randint(50, 400)]
-            inimigo['destino'] = destino
-            if inimigo['destino'][0] > inimigo['pos'][0]:
-                inimigo['velX'] = 1
-            else:
-                inimigo['velX'] = -1
+                destinos.append([random.randint(50, 500), random.randint(50, 400)])
+            inimigo['destinoId'] += 1
+            calculate_new_velocity(inimigo)
 
-            if inimigo['destino'][1] > inimigo['pos'][1]:
-                inimigo['velY'] = 1
-            else:
-                inimigo['velY'] = -1
 
 def pintar(scr, obj):
     if obj['status'] == 'vivo':
@@ -53,16 +62,21 @@ def pintar(scr, obj):
 
 def generate_inimigos(lista):
     global inimigos
-
     x = 100
     for i in range(inimigos):
         e = {'pos':[x, 100], 'velX':1, 'velY':1,
-             'destino':[500, 400], 'imagem':enemy,
+             'destinoId': 0, 'imagem':enemy,
              'size':[38, 37], 'status':'vivo', 'head':False}
+        calculate_new_velocity(e)
         if i == 0:
             e['head'] = True
         lista.append( e )
         x -= 50
+
+def get_primeiro_inimigo_vivo(lista):
+    for e in lista:
+        if e['status'] == 'vivo':
+            return e
 
 pygame.init()
 tela = pygame.display.set_mode((800, 600), 0, 32)
@@ -81,15 +95,21 @@ generate_inimigos(lista_inimigos)
 while True:
     #Calcular regras
     for inimigo in lista_inimigos:
-        calculaInimigo(inimigo)
-    calculaHeroi(heroi)
-    calculaTiros(lista_tiros)
+        calcular_inimigo(inimigo)
+    calcular_heroi(heroi)
+    calcular_tiros(lista_tiros)
 
     for tiro in lista_tiros:
+        remove_tiro = False
         for inimigo in lista_inimigos:
             if testa_colisao(inimigo, tiro):
                 inimigo['status'] = 'morto'
-                lista_tiros.remove(tiro)
+                if inimigo['head']:
+                    get_primeiro_inimigo_vivo(lista_inimigos)['head']=True
+                lista_inimigos.remove(inimigo)
+                remove_tiro = True
+        if remove_tiro:
+            lista_tiros.remove(tiro)
 
     #Desenhar a tela
     tela.fill((0, 0, 0))
