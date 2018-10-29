@@ -9,6 +9,11 @@ from pygame.locals import QUIT, MOUSEBUTTONDOWN, KEYDOWN, \
 # 3 - Menu configuracao
 estado = 0
 indice_menu = 0
+r1 = Rect((10, 10), (50, 100))
+r2 = Rect((20, 20), (100, 100))
+
+if r1.colliderect(r2):
+    print ("Colidiu")
 
 clk = pygame.time.Clock()
 
