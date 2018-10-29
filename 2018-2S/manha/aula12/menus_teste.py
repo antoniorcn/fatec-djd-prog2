@@ -1,6 +1,13 @@
 import pygame
-from pygame import QUIT, KEYUP, KEYDOWN, K_UP, K_DOWN, K_LEFT, K_RIGHT, K_SPACE
+from pygame import QUIT, KEYUP, KEYDOWN, \
+                    K_UP, K_DOWN, K_LEFT, K_RIGHT, K_SPACE, \
+                    MOUSEBUTTONDOWN
 
+#Inicialização
+# 0 - Menu principal
+# 1 - Jogando
+# 2 - Pausado
+state = 0   #Menu Principal
 pygame.init()
 tela = pygame.display.set_mode((800, 600), 0, 32)
 sprite_sheet = pygame.image.load("EpicArmor.png").convert_alpha()
@@ -19,6 +26,31 @@ sergio = {  "pos": [400, 300],
             "images_state_right_stop": [27],
             "frame_index": 0
         }
+
+def estado_jogar():
+    global state
+    state = 1
+
+def estado_configurar():
+    print ("Clicou na configuração")
+
+jogar = {"texto":"Jogar", "pos":[100, 100], "cor":(255, 255, 0), "funcao":estado_jogar}
+config = {"texto":"Configurar", "pos":[100, 200], "cor":(255, 255, 0), "funcao":estado_configurar}
+
+font = pygame.font.Font("C:/WINDOWS/FONTS/ALGER.TTF", 48)
+
+def pintar_opcao(scr, obj):
+    sur_opcao = font.render(obj["texto"], True, obj["cor"])
+    scr.blit(sur_opcao, obj["pos"])
+    obj["renderizado"] = sur_opcao
+
+def testa_colisao(obj, e):
+    global state
+    r1 = obj["renderizado"].get_rect()
+    r1.x = obj["pos"][0]
+    r1.y = obj["pos"][1]
+    if r1.collidepoint(e.pos):
+        obj["funcao"]()
 
 def atualizar_regra_personagem( obj ):
     obj["pos"][0] += (obj["velX"] * 10)
@@ -56,14 +88,20 @@ def anima( obj ):
     sur_frame = get_frame(gId)
     tela.blit(sur_frame, obj["pos"])
 
+#Loop do Jogo
 clk = pygame.time.Clock()
 while True:
     # Calcular Regras
-    atualizar_regra_personagem(sergio)
+    if state == 1:
+        atualizar_regra_personagem(sergio)
 
     # Pintar
     tela.fill((0, 0, 0))
-    anima(sergio)
+    if state == 1:
+        anima(sergio)
+    elif state == 0:
+        pintar_opcao(tela, jogar)
+        pintar_opcao(tela, config)
     pygame.display.update()
     clk.tick(10)
 
@@ -71,7 +109,7 @@ while True:
     for e in pygame.event.get():
         if e.type == QUIT:
             exit()
-        elif e.type == KEYDOWN:
+        elif e.type == KEYDOWN and state == 1:
             if e.key == K_UP:
                 sergio["state"] = "images_state_up_run"
                 sergio["velY"] = -1
@@ -99,3 +137,6 @@ while True:
             elif e.key == K_RIGHT:
                 sergio["state"] = "images_state_right_stop"
                 sergio["velX"] = 0
+        elif e.type == MOUSEBUTTONDOWN:
+            testa_colisao(jogar, e)
+            testa_colisao(config, e)
