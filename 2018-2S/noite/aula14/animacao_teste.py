@@ -15,23 +15,26 @@ def get_frame(sprite_sheet, gId, columns, width, height,
     frame = sprite_sheet.subsurface(x, y, width, height)
     return frame
 
+
 def update_frame( sprite ):
     lista_estado = sprite[sprite["estado_atual"]]
     sprite["frame_index"] += 1
     if sprite["frame_index"] > len(lista_estado) - 1:
         sprite["frame_index"] = 0
 
+
 thiago = {  "sprite_sheet":img_dwarf,
-            "andando_dir":[10, 11, 12, 13, 14, 15, 16, 17],
-            "parado_dir":[10],
-            "andando_esq":[60, 61, 62, 63, 64, 65, 66, 67],
-            "machado":[20, 21, 22, 23, 24, 25, 26],
-            "estado_atual" : "andando_dir",
+            "andando_dir": [10, 11, 12, 13, 14, 15, 16, 17],
+            "parado_dir": [10],
+            "andando_esq": [60, 61, 62, 63, 64, 65, 66, 67],
+            "machado": [20, 21, 22, 23, 24, 25, 26],
+            "estado_atual": "andando_dir",
             "frame_index": 0}
 
 clk = pygame.time.Clock()
 while True:
-
+    print(pygame.key.get_pressed()[K_LEFT],
+          pygame.key.get_pressed()[K_SPACE])
     #Calcular Regras
     update_frame(thiago)
 
